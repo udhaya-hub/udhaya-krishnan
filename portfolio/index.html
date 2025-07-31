@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Udhaya Krishnan G - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <style>
+    body.dark-mode {
+      background-color: #121212;
+      color: white;
+    }
+
+    body.dark-mode input,
+    body.dark-mode textarea {
+      background-color: #1e1e1e;
+      color: white;
+      border: 1px solid #ccc;
+    }
+
+    body.dark-mode input::placeholder,
+    body.dark-mode textarea::placeholder {
+      color: #aaa;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      box-sizing: border-box;
+    }
+
+    pre.code-box {
+      background-color: #f4f4f4;
+      padding: 15px;
+      overflow-x: auto;
+      border-left: 5px solid #007acc;
+      font-size: 14px;
+    }
+
+    body.dark-mode pre.code-box {
+      background-color: #1e1e1e;
+      border-left-color: #66afe9;
+    }
+  </style>
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle("dark-mode");
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Udhaya Krishnan G</h1>
+    <p>Aspiring Software Developer</p>
+    <button onclick="toggleDarkMode()" style="position: absolute; top: 1rem; right: 1rem;">Toggle Dark Mode</button>
+  </header>
+
+  <div class="resume-btn" data-aos="zoom-in" style="margin: 20px;">
+    <a href="resume.pdf" download>
+      <button style="padding: 10px 20px; font-size: 16px;">⬇️ Download Resume</button>
+    </a>
+  </div>
+
+  <section id="about" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p>I am a Computer Science student passionate about software development and building practical applications using Python, SQL, and web technologies.</p>
+  </section>
+
+  <section id="skills" data-aos="fade-up">
+    <h2>Skills</h2>
+    <ul>
+      <li>Python</li>
+      <li>SQL</li>
+      <li>C++</li>
+      <li>HTML & CSS</li>
+    </ul>
+  </section>
+
+  <section id="projects" data-aos="fade-up">
+    <h2>Projects</h2>
+
+    <p><strong>Student Record Management System</strong> - A Python+SQLite based app to manage student data with full CRUD operations.</p>
+
+    <p><strong>To-Do List Web App</strong> - A JavaScript-based browser app to manage daily tasks with add, delete, and mark-complete options.</p>
+
+    <p><strong>Weather Forecast App</strong> - A Python application that connects to OpenWeatherMap API and displays real-time temperature and weather conditions for any entered city.</p>
+
+    <p><strong>Face Recognition App</strong> - Python + OpenCV app that detects and recognizes faces from live webcam feed.</p>
+
+    <p><strong>Simple AI Chatbot</strong> - A basic Python chatbot that responds to user input with pre-defined responses using conditional statements. It simulates simple human-like conversation in the terminal.</p>
+
+    <p><strong>Excel Budget Tracker</strong> – A simple Python project using <code>openpyxl</code> that tracks daily expenses. It records category, amount, and auto-fills the current date into an Excel file (<code>budget.xlsx</code>).</p>
+  </section>
+
+  <section id="certifications" data-aos="fade-up">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Java Programming - Infosys Springboard</li>
+      <li>Introduction to Cloud - IBM</li>
+      <li>Big Data Course - Naan Mudhalvan</li>
+      <li>AI for India - GUVI</li>
+    </ul>
+  </section>
+
+  <section id="contact" data-aos="fade-up">
+    <h2>Contact Me</h2>
+    <form action="mailto:krishnanudhaya75@gmail.com" method="post" enctype="text/plain">
+      <label>Name:</label><br>
+      <input type="text" name="name" placeholder="Your name" required><br><br>
+
+      <label>Email:</label><br>
+      <input type="email" name="email" placeholder="you@example.com" required><br><br>
+
+      <label>Message:</label><br>
+      <textarea name="message" rows="5" placeholder="Your message" required></textarea><br><br>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

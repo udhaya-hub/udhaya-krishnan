@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #000;
+}
+
+header {
+  background-color: #007acc;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+}
+
+.resume-btn {
+  text-align: center;
+  margin: 1.5rem;
+}
+
+button {
+  padding: 10px 20px;
+  background: #007acc;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #005c99;
+}
+
+section {
+  padding: 1.5rem;
+  background: #f4f4f4;
+  margin: 1rem;
+  border-radius: 8px;
+}
+
+/* Contact Form Styling */
+form {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Dark Mode Styling */
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark-mode header {
+  background-color: #1e1e1e;
+}
+
+.dark-mode section {
+  background-color: #1e1e1e;
+}
+
+.dark-mode a {
+  color: #66ccff;
+}
+
+.dark-mode button {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode button:hover {
+  background-color: #555;
+}
